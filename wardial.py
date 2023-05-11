@@ -241,7 +241,7 @@ if __name__=='__main__':
     parser.add_argument('--quiet', action='store_true')
     args = parser.parse_args()
 
-    # set the logging level
+    # set the logging level.
     if args.verbose:
         logging.basicConfig(level="DEBUG")
     elif args.quiet:
